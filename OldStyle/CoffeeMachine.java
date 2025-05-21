@@ -1,3 +1,4 @@
+package OldStyle;
 import java.util.Scanner;
 public class CoffeeMachine {
     static double waterAvailable = 400;
