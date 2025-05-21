@@ -3,7 +3,8 @@ public class Main{
     public static void main(String[] args){
        // consoleOutput();
         // requirementAnalysis();
-        estimationOfServing();
+        //estimationOfServing();
+        CoffeeMachine.ActionMachine();
     }
     static void consoleOutput(){
         String consoleOutput = """
@@ -34,17 +35,17 @@ public class Main{
         System.out.println("Write how many ml of water the coffee machine has:");
         int waterQuantity = input.nextInt();
         double waterAvailable = (double) waterQuantity / 200 ; // for cups of coffee
-        System.out.println(waterAvailable);
+        
 
         System.out.println("Write how many ml of milk the coffee machine has:");
         int milkQuantity = input.nextInt();
         double milkAvailable = (double) milkQuantity / 50 ; // for cups of coffee
-        System.out.println(milkAvailable);
+        
 
         System.out.println("Write how many grams of coffee beans the coffee machine has:");
         int beansQuantity = input.nextInt();
         double beansAvailable = (double) beansQuantity / 15 ; // for cups of coffee
-        System.out.println(beansAvailable);
+       
 
         System.out.println("Write how many cups of coffee you will need:");
         double coffeeNeed = input.nextDouble();
@@ -75,4 +76,5 @@ public class Main{
         
         
     }
+    
 }
